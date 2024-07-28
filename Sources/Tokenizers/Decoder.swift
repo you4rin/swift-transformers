@@ -103,7 +103,7 @@ class ByteLevelDecoder: Decoder {
         
         if !currentSubText.isEmpty {
             // subTexts.append(convertTokensToString(currentSubText))
-            subTexts.append(currentSubText)
+            subTexts.append("")
         }
         
         return subTexts
